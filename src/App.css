@@ -11,14 +11,24 @@ body{
 
 .container{
   background-color: var(--White);
-  min-width: 600px;
-  width: 50vw;
-  height: 500px;
-  margin: 8vh auto ;
+/*  min-width: 600px;*/
+  width: 600px;
+  min-height: 450px;
+/*  min-height: 350px;*/
+  margin: 9vh auto ;
   border-radius: 10px;
+  display: flex;
 }
 
 img{
   height: 100%;
+  width: 50%;
+/*  background-color: blue;*/
+  padding: 10px;
 }
   
+form{
+  width: 50%;
+  background-color: blue;
+  padding: 10px;
+  }

@@ -8,11 +8,9 @@ function App() {
 
   return (
       <div className="container">
-      <div className="form"></div>
-      <div className="image">
+      <form>hey</form>
+      
         <img src={logo} alt="logo" />
-      </div>
-      hello
       </div>
   )
 }
