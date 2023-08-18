@@ -12,7 +12,7 @@ function ThankYou() {
       <div>
         <img src={icon} className="tk-icon" alt="list-icon"/>
         <h1>Thanks for subscribing!</h1>
-        <p>A confirmation email has been sent to your email. Please open it and click the button inide to confirm your subscription.</p>
+        <p>A confirmation email has been sent to your email. Please open it and click the button inside to confirm your subscription.</p>
         </div>
         <button onClick={() => navigate("/")}>Dismiss message</button>
       </div>
