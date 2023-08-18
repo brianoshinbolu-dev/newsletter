@@ -1,17 +1,17 @@
-import { useState } from 'react'
-import logo from './assets/images/illustration-sign-up-desktop.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Newletter from "./Pages/Newletter.jsx";
+import ThankYou from "./Pages/ThankYou.jsx";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-      <div className="container">
-      <form>hey</form>
-      
-        <img src={logo} alt="logo" />
-      </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Newletter />} />
+        <Route path="/thankyou" element={<ThankYou />} />
+      </Routes>
+    </Router>
   )
 }
 

@@ -1,0 +1,58 @@
+body{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+@media (max-width: 715px) {
+
+.tk-container{
+  width: 100%;
+  max-width: 375px;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--White);
+}
+
+.tk-icon{
+	width: 30px;
+	height: 30px;
+}
+
+.tk-container div{
+	padding: 80px 30px 0px 30px;
+}
+
+}
+
+button{
+	width: 100%;
+}
+
+
+
+@media (min-width: 715px) {
+
+.tk-container{
+	width: 300px;
+	height: 300px;
+	background-color: var(--White);
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.tk-icon{
+	width: 30px;
+	height: 30px;
+}
+
+
+
+p{
+	font-size: 13px;
+}
+
+}
